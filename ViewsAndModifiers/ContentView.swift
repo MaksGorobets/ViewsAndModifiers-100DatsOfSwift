@@ -23,15 +23,19 @@ struct DefaultView: View {
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            VStack {
-                LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .top, endPoint: .bottom)
-                    .frame(width: .infinity, height: .infinity)
-                    .ignoresSafeArea()
+        NavigationStack {
+            ZStack {
+                VStack {
+                    LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .top, endPoint: .bottom)
+                        .ignoresSafeArea()
+                }
+                Text("🔈")
+                    .emojiBackground(number: 10)
+                    NavigationLink(destination: TitleModifierView()) {
+                        Text("Next Page")
+                }
+                    .foregroundStyle(Color.white)
             }
-            Text("♥️")
-                .emojiBackground(number: 10)
-
         }
     }
 }

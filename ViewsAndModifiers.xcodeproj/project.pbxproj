@@ -12,6 +12,7 @@
 		E904C5F42AE0680300C9BB4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E904C5F32AE0680300C9BB4B /* Assets.xcassets */; };
 		E904C5F72AE0680300C9BB4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E904C5F62AE0680300C9BB4B /* Preview Assets.xcassets */; };
 		E91F9D3D2AE43E6A00AEDE87 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F9D3C2AE43E6A00AEDE87 /* Modifier.swift */; };
+		E95BA1242AE71D0A002F91B9 /* TitleModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95BA1232AE71D0A002F91B9 /* TitleModifierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E904C5F32AE0680300C9BB4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E904C5F62AE0680300C9BB4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E91F9D3C2AE43E6A00AEDE87 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		E95BA1232AE71D0A002F91B9 /* TitleModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				E904C5EF2AE0680300C9BB4B /* ViewsAndModifiersApp.swift */,
 				E91F9D3C2AE43E6A00AEDE87 /* Modifier.swift */,
 				E904C5F12AE0680300C9BB4B /* ContentView.swift */,
+				E95BA1232AE71D0A002F91B9 /* TitleModifierView.swift */,
 				E904C5F32AE0680300C9BB4B /* Assets.xcassets */,
 				E904C5F52AE0680300C9BB4B /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				E904C5F22AE0680300C9BB4B /* ContentView.swift in Sources */,
 				E904C5F02AE0680300C9BB4B /* ViewsAndModifiersApp.swift in Sources */,
+				E95BA1242AE71D0A002F91B9 /* TitleModifierView.swift in Sources */,
 				E91F9D3D2AE43E6A00AEDE87 /* Modifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

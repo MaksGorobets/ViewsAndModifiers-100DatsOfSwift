@@ -9,7 +9,23 @@ import SwiftUI
 
 struct TitleModifierView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Title modifier")
+            .titleText()
+        Text("No title modifier")
+    }
+}
+
+struct TitleModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.system(size: 50, design: .serif))
+            .foregroundStyle(Color.blue)
+    }
+}
+
+extension View {
+    func titleText() -> some View {
+        modifier(TitleModifier())
     }
 }
 
